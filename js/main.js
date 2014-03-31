@@ -41,7 +41,7 @@ dp(document).ready(function() {
 
   dp('a').each(function(element){
     dp(element).one('click', function(e){
-      if (element.attr('href')[0] === '#' || element.attr('href')[0] === 'm' )
+      if (element.attr('type') === 'submit' || element.attr('href')[0] === '#' || element.attr('href')[0] === 'm' )
         return true
       e.preventDefault();
       ga('send', 'event', 'link', 'click', element.attr('href'), 0)
@@ -49,6 +49,14 @@ dp(document).ready(function() {
         window.location.href = element.attr('href')
       }, 100)
     })
+  })
+  dp('a[type=submit]').click(function(e){
+    ga('send', 'event', 'form', 'submit', 'optin', 1)
+    $t = dp(e.target || e.srcElement)
+    setTimeout(function(){
+      $t.closest('form').submit()
+    }, 100)
+
   })
 
 });
