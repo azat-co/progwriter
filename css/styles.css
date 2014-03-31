@@ -658,7 +658,7 @@ span.icon-separator i {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eef0f1', GradientType=0);
 }
 .signup-text {
-    text-align: center;
+    /*text-align: center;*/
 }
 @media (max-width: 767px) {
     .headcontent .signup-text {
@@ -1466,10 +1466,10 @@ footer .powered {
 .signup-form a.button {
     border: 0px;
     margin-top: 5px;
-    padding: 0.2em 1em;
+
     font-size: 16px;
     margin-bottom: 0;
-    padding: 10px 19px;
+
     font-size: 17px;
     line-height: 1.471;
     border-radius: 6px;
@@ -1480,7 +1480,7 @@ font-size: 15px;
 font-weight: normal;
 line-height: 1.4;
 border-radius: 4px;
-padding: 10px 15px;
+
 -webkit-font-smoothing: subpixel-antialiased;
 -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
 transition: border .25s linear, color .25s linear, background-color .25s linear;
@@ -1492,4 +1492,16 @@ transition: border .25s linear, color .25s linear, background-color .25s linear;
 }
 .signup-form input[type="email"] {
     margin-top: 6px;
+}
+.headcontent .signup {
+    background: #FFF;
+    border: 2px solid #BDC3C7;
+    border-radius: 6px;
+}
+.headcontent .signup i {
+    margin-left: 5px;
+}
+.signup-cont {
+    padding-left: 0;
+    padding-right: 0;
 }
