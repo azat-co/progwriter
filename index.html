@@ -1,320 +1,347 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="utf-8">
+    <!-- ==========================
+    	Meta Tags
+    =========================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/images/favicon/favicon.ico" type="image/x-icon">
 
+    <!-- ==========================
+    	Title
+    =========================== -->
     <title>ProgWriter - Complete Guide to Publishing Programming Books</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/lib/font-awesome.min.css" rel="stylesheet">
-    <!-- Style LESS -->
-    <!--<link rel="stylesheet/less" type="text/css" href="css/less/styles.less" />-->
-    <link rel="stylesheet" href="css/lib/nivo-lightbox.css" type="text/css" />
-    <link rel="stylesheet" href="css/lib/nivo-themes/default/default.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="css/scheme/navyblue.css" />
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- ==========================
+    	Favicons
+    =========================== -->
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+	<link rel="apple-touch-icon" href="/icons/icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/icons/icon-114x114.png">
+
+    <!-- ==========================
+    	Fonts
+    =========================== -->
+
+    <!-- ==========================
+    	CSS
+    =========================== -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="plugins/creative-brands/creative-brands.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="plugins/time-circles/TimeCircles.css" rel="stylesheet" type="text/css">
+    <link href="plugins/vegas/css/jquery.vegas.css" rel="stylesheet" type="text/css">
+    <!-- ==========================
+    	JS
+    =========================== -->
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+
 </head>
-
 <body>
-    <div class="outbox">
-        <section class="head">
-            <div class="phone-head">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="top-info">
-                                <span class="rotatez">Twitter: @azat_co| Address: Oakland, CA</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="content-head">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="logo-head">
-                                <a href="http://progwriter.com">
-                                    ProgWriter<!-- <img src="images/logo.png" alt=""> -->
-                                </a>
-                            </div>
-                            <div class="icon-head hidden-xs">
-                                <a href="http://facebook.com/azat.mardanov" data-toggle="tooltip" title="Facebook">
-                                    <i class="icon-social icon-facebook"></i>
-                                </a>
-                                <a href="http://twitter.com/#!/azat_co" data-toggle="tooltip" title="Twitter">
-                                    <i class="icon-social icon-twitter"></i>
-                                </a>
 
-                                <a href="http://www.linkedin.com/in/azatmardanov" data-toggle="tooltip" title="Linkedin">
-                                    <i class="icon-social icon-linkedin"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="headcontent">
+    <div class="container">
+        <div class="row" id="text"><!-- start of row text -->
+          <div class="col-md-12">
+            <h1>ProgWriter</h1>
+            <h3>Complete Guide to Publishing Programming Books</h3>
+             <p>Hi, I'm <a data-toggle="modal" data-target="#author" >Azat</a>. As of this writing, I've <strong>created five</strong> <a data-toggle="modal" data-target="#work" >books</a> (both self and traditionaly published), and I want to share my experience with you to help you <strong>avoid mistakes</strong>, pick the easiest and fastest route to success, and show you how to add a source of <strong>passive income</strong>. Publish your first book and become a programmer that writers, or simply <strong>progwriter</strong>!
+            </p>
+<!--             <p>In this exact moment we <span class="highlight">working really hard</span> on our new project. You can look forward to an amazing service, which completely <span class="highlight">rock your world</span>. It's going to literally turn your world upside down. <span class="highlight">So stay tuned</span>. For more information visit our website or you can check our <span class="highlight"><i class="fa fa-facebook-square"></i> Facebook</span></p> -->
+
+            <div class="subscribe-btn"><a class="btn btn-danger btn-lg btn-block" data-toggle="modal" data-target="#subscribe">Subscribe</a></div>
+            <p>Help others and make money in your sleep by writing and publishing programming books.</p>
+
+           </div>
+        </div><!-- end of row text -->
+
+        <div class="row countdown"><!-- start of row countdown -->
+
+            <div class="col-md-12"><!-- Line Separator -->
+              <div class="line">
+                <h3>When?</h3>
+                <div class="when"><p>Coming summer 2014</p></div>
+              </div>
+
+              <!-- <div id="DateCountdown" data-date="2014-09-01 04:05:00"></div> -->
+              <!-- Circle Countdown here you can set up time to countdown just simply change atribute data-date="yyyy-mm-dd time" -->
+            </div>
+
+        </div><!-- end of row countdown -->
+
+    </div><!-- end of container -->
+
+	<!-- ==========================
+    	MODALS - START
+    =========================== -->
+    <section id="modal">
+	<!-- ==========================
+    	MODAL SUBSCRIBE - START
+    =========================== -->
+      <div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="subscribe" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-body">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-5  col-md-5">
-                        <div class="image-content">
-                            <img src="/images/OCP0136564_Veer.JPG" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-7">
-                        <div class="text-content">
-                            <h1>ProgWriter: Complete Guide to Publishing Programming Books</h1>
-                            <h3>Help others and make money in your sleep by writing and publishing programming books.</h3>
-                            <p>Hi, I'm <a href="#author">Azat</a>. As of this writing, I've <strong>created five</strong> <a href="http://webapplog.com/books">books</a> (both self and traditionaly published), and I want to share my experience with you to help you <strong>avoid mistakes</strong>, pick the easiest and fastest route to success, and add source of <strong>passive income</strong>. Publish your first book and become a programmer that writers, or simply <strong>progwriter</strong>!
-                            </p>
-                            <br/>
-                        <div class="signup">
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <div class="signup-text">
-                                        <p>Let’s keep in touch!</p>
-                                        <span>Leave your email and we'll keep you in the loop when the book is ready.</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="signup-cont col-lg-12 col-md-12 col-sm-12">
-                                    <div class="signup-form">
-                                        <form action="http://rpjs.us7.list-manage.com/subscribe/post?u=36e6fbd670f90424e85a36feb&amp;id=bb46f0e269" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" novalidate role="form">
-                                            <div class="form-group col-lg-7 col-md-7 col-sm-7">
-                                                <label class="sr-only" for="mce-EMAIL">Email address</label>
-                                                <input type="email" class="form-control" id="mce-EMAIL" placeholder="hi@progwriter.com" name="EMAIL">
-                                            </div>
-                                            <div style="position: absolute; left: -5000px;">
-                                                <input type="text" name="b_36e6fbd670f90424e85a36feb_bb46f0e269" value="">
-                                            </div>
-                                            <a type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Subscribe
-                                                <i class="icon-plus"></i>
-                                            </a>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+              <div class="row">
 
-<!--                             <div class="button-header">
-                                <a href="javascript:;" class="button darkbg-blue clearfix">
-                                    <span>PURCHASE CD</span>
-                                    <div class="icon">
-                                        <i class="icons icon-usd"></i>
-                                    </div>
-                                </a>
-                                <span>Buy this CD on amazon only
-                                    <strong>30$</strong>
-                                </span>
-                            </div>
-                            <div class="button-header">
-                                <a href="javascript:;" class="button darkbg-green clearfix">
-                                    <span>DOWNLOAD</span>
-                                    <div class="icon">
-                                        <i class="icons icon-angle-down"></i>
-                                    </div>
-                                </a>
-                                <span>Enjoy your trial
-                                    <strong>20 minutes</strong>.mp4</span>
-                            </div> -->
-                        </div>
-                    </div>
+                <div class="col-md-12">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h3>Let’s keep in touch!</h3>
                 </div>
+
+                <div class="col-md-2 col-sm-3 col-xs-4">
+                 <img src="image/mail.png" class="img-responsive img-circle" alt="" />
+                </div>
+
+                <div class="col-md-4 col-sm-3 col-xs-8 subscribe-copy">
+                  <p>Leave your email and we'll keep you in the loop when the resource is ready.</p>
+                </div>
+
+                <div class="col-md-6 center-block"><!-- Subscribe form -->
+                  <div class="subscribe-wrap">
+     <!--                <form class="form-inline" role="form">
+                        <div class="form-group">
+                          <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+                        </div>
+                        <button type="submit" class="btn btn-large btn-danger">Subscribe</button>
+                    </form> -->
+                   <form action="http://rpjs.us7.list-manage.com/subscribe/post?u=36e6fbd670f90424e85a36feb&amp;id=bb46f0e269" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" novalidate role="form">
+                      <div class="form-group col-lg-7 col-md-7 col-sm-7">
+                          <label class="sr-only" for="mce-EMAIL">Email address</label>
+                          <input type="email" class="form-control" id="mce-EMAIL" placeholder="hi@progwriter.com" name="EMAIL">
+                      </div>
+                      <div style="position: absolute; left: -5000px;">
+                          <input type="text" name="b_36e6fbd670f90424e85a36feb_bb46f0e269" value="">
+                      </div>
+                      <a type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-danger">Subscribe
+                          <i class="icon-plus"></i>
+                      </a>
+                  </form>
+
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-        <div class="break-shadow"></div>
-        <section class="marketext">
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================
+    	MODAL SUBSCRIBE - END
+   	  =========================== -->
+
+       <!-- ==========================
+    	MODAL CONTACT - START
+    =========================== -->
+
+      <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-body">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p>An <strong>action plan</strong> to get your first programming book published.
-                        </p>
-                        <span class="icon-separator"><i class="icon-smile"></i>
-                        </span>
-                    </div>
+              <div class="row">
+
+                <div class="col-md-12">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h3>Contact</h3>
                 </div>
+
+                <div class="col-md-8 col-sm-8"><!-- Google Map -->
+
+                      <section class="" id="google-map">
+                          <div id="map-canvas"></div>
+                      </section>
+
+                </div>
+
+                <div class="col-md-4 col-sm-4"><!-- Address -->
+                  <address>
+                    <h4>Azat Mardanov</h4><br>
+
+                    Oakland, CA 94612<br>
+                  </address>
+
+                  <address>
+                    Twitter: <a href="http://twitter.com/azat_co">@azat_co</a><br/>
+                    Website: <a href="http://azat.co">azat.co</a>
+                  </address>
+
+                </div>
+
+              </div>
             </div>
-        </section>
-        <section class="contentbody">
+          </div>
+        </div>
+      </div>
+	 <!-- ==========================
+    	MODAL CONTACT  - END
+   	  =========================== -->
+
+       <!-- ==========================
+    	MODAL WORK - START
+   	 =========================== -->
+
+      <div class="modal fade" id="work" tabindex="-1" role="dialog" aria-labelledby="work" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-body">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="content-title">
-                            <div class="separator-title">
-                                <h2>Benefits</h2>
-                            </div>
-                            <span>Save time and avoid costly mistakes</span>
-                        </div>
-                    </div>
+              <div class="row">
+
+                <div class="col-md-12">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h3>Our Work</h3>
                 </div>
-                <div class="row">
-                    <div class="benefits">
-                        <div class="col-lg-3 col-sm-6 col-xs-12">
-                            <div class="items">
-                                <i class="icon-signal"></i>
-                                <h3>Researching and Testing</h3>
-                                <span>Pick your topic</span>
-                                <p>How to research and validate market demand</p>
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-3 col-sm-6 col-xs-12">
-                            <div class="items">
-                                <i class="icon-download-alt"></i>
-                                <h3>Publishing</h3>
-                                <span>PDF, EPUB, MOBI</span>
-                                <p>Learn the best tools and services to produce consumer-ready files</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-sm-6 col-xs-12">
-                            <div class="items">
-                                <i class="icon-edit-sign"></i>
-                                <h3>Writing</h3>
-                                <span>Best Practices and Styles</span>
-                                <p>Learn about styles and how to structue your book</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-sm-6 col-xs-12">
-                            <div class="items">
-                                <i class="icon-comments-alt"></i>
-                                <h3>Marketing</h3>
-                                <span>Social Media, Forums</span>
-                                <p>Apply marketing to spread the word about your book</p>
-                            </div>
-                        </div>
-
-
-                    </div>
+                <!-- about our work 1. column  -->
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                 	<img src="image/rpjs.png" class="img-responsive img-thumbnail" alt="" />
+                    <h4>2,000+ readers</h4>
+                    <p class="center-block">Amazon #1 Best Seller in Client Server category</p>
                 </div>
+                <!-- about our work 2. column  -->
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                 	<img src="image/ohmyjs.jpeg" class="img-responsive img-thumbnail" alt="" />
+                    <h4>Blog to book</h4>
+                    <p class="center-block">Gems coverted from HTML to the book</p>
+                </div>
+                <!-- about our work 3. column  -->
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                  <img src="image/express.png" class="img-responsive img-thumbnail" alt="" />
+                  <h4>Rainmaker</h4>
+                  <p class="center-block">The large-size definitive book on the framework </p>
+                </div>
+                <!-- about our work 4. column  -->
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                  <img src="image/jsfun.jpeg" class="img-responsive img-thumbnail" alt="" />
+                  <h4>Short book</h4>
+                   <p class="center-block">Lean book with 1,700 free downloads</p>
+                </div>
+
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+	 <!-- ==========================
+    	MODAL WORK - END
+   	  =========================== -->
 
+       <!-- ==========================
+      MODAL WORK - START
+     =========================== -->
 
-
-
-        <!-- BEGIN AUTHOR -->
-        <section class="author" id="author">
+      <div class="modal fade" id="author" tabindex="-1" role="dialog" aria-labelledby="author" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-body">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h3>About the author</h3>
-                    </div>
+              <div class="row">
+
+                <div class="col-md-12">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h3>About Author</h3>
+<blockquote class="blockquote-reverse">
+  &ldquo;A room without books is like a body without a soul.&rdquo;<footer><cite title="Cicero"> Cicero</cite></footer>
+</blockquote>
+                  <img class="thumbnail azat pull-left" src="/image/azat.jpg" alt="Azat">
+                  <p>Azat Mardanov has over 12 years of experience in web, mobile and software development. With a Bachelor’s Degree in Informatics and a Master of Science in Information Systems Technology degree, Azat possesses deep academic knowledge as well as extensive practical experience.</p>
+
+                  <p>Currently, Azat works as a Team Lead / Senior Software Engineer at <a href="http://docusign.com">DocuSign</a>, where his team rebuilds 50 million user product (DocuSign web app) using the tech stack of Node.js, Express.js, Backbone.js, CoffeeScript, Jade, Stylus and Redis.</p>
+
+                  <p>Recently, he worked as an engineer at the curated social media news aggregator website, <a href="http://storify.com">Storify.com</a> (acquired by <a href="http://livefyre.com">LiveFyre</a>) which is used by BBC, NBC, CNN, The White House and others. Storify runs everything on Node.js unlike other companies. It’s the maintainer of the open-source library <a href="http://npmjs.org/jade-browser">jade-browser</a>. </p>
+
+                  <p>Before that, Azat worked as a CTO/co-founder at <a href="http://www.crunchbase.com/company/gizmo">Gizmo</a> — an enterprise cloud platform for mobile marketing campaigns, and has undertaken the prestigious <a href="http://500.co/">500 Startups</a> business accelerator program. </p>
+
+                  <p>Prior to this, Azat was developing he developed mission-critical applications for government agencies in Washington, DC, including the <a href="http://nih.gov">National Institutes of Health</a>, the <a href="http://ncbi.nlm.nih.gov">National Center for Biotechnology Information</a>, and the <a href="http://fdic.gov">Federal Deposit Insurance Corporation</a>, as well as <a href="http://lockheedmartin.com">Lockheed Martin</a>. </p>
+
+                  <p>Azat is a frequent attendee at Bay Area tech meet-ups and hackathons (<a href="http://angelhack.com">AngelHack</a> hackathon ’12 finalist with team <a href="http://fashionmetric.com">FashionMetric.com</a>).</p>
+
+                  <p>In addition, Azat teaches technical classes at <a href="http://generalassemb.ly">General Assembly</a>, <a href="http://hackreactor.com">Hack Reactor</a>, <a href="http://parisoma.com">pariSOMA</a> and <a href="http://marakana.com">Marakana</a> (acquired by Twitter) to much acclaim.</p>
+
+                  <p>In his spare time, he writes about technology on his blog: <a href="http://webapplog.com">webAppLog.com</a> which is <a href="http://expressjsguide.com/assets/img/expressjs-tutorial.png">number one</a> in “express.js tutorial” Google search results. Azat is also the author of <a href="http://expressjsguide.com">Express.js Guide</a>, <a href="http://rpjs.co">Rapid Prototyping with JS</a> and <a href="http://leanpub.com/ohmyjs">Oh My JS</a>; and the creator of open-source Node.js projects, including <a href="http://npmjs.org/expressworks">ExpressWorks</a>, <a href="http://npmjs.org/mongoui">mongoui</a> and <a href="http://hackhall.com">HackHall</a>.</p>
+
+
+
                 </div>
-                <!-- AUTHOR-->
-                <div class="row authorow">
-                    <div class="col-lg-2">
-                        <img class="thumbnail profpic" src="/images/azat.jpg" alt="Azat">
-                    </div>
-                    <div class="col-lg-10">
-                        <p class="motto">&ldquo;A room without books is like a body without a soul.&rdquo; &mdash; Cicero</p>
-                        <div class="row">
-                            <div class="col-lg-7">
 
-                                <p>Azat Mardanov has over 12 years of experience in web, mobile and software development. With a Bachelor’s Degree in Informatics and a Master of Science in Information Systems Technology degree, Azat possesses deep academic knowledge as well as extensive practical experience.</p>
-
-                                <p>Currently, Azat works as a Team Lead / Senior Software Engineer at <a href="http://docusign.com">DocuSign</a>, where his team rebuilds 50 million user product (DocuSign web app) using the tech stack of Node.js, Express.js, Backbone.js, CoffeeScript, Jade, Stylus and Redis.</p>
-
-                                <p>Recently, he worked as an engineer at the curated social media news aggregator website, <a href="http://storify.com">Storify.com</a> (acquired by <a href="http://livefyre.com">LiveFyre</a>) which is used by BBC, NBC, CNN, The White House and others. Storify runs everything on Node.js unlike other companies. It’s the maintainer of the open-source library <a href="http://npmjs.org/jade-browser">jade-browser</a>. </p>
-
-                                <p>Before that, Azat worked as a CTO/co-founder at <a href="http://www.crunchbase.com/company/gizmo">Gizmo</a> — an enterprise cloud platform for mobile marketing campaigns, and has undertaken the prestigious <a href="http://500.co/">500 Startups</a> business accelerator program. </p>
-
-                                <p>Prior to this, Azat was developing he developed mission-critical applications for government agencies in Washington, DC, including the <a href="http://nih.gov">National Institutes of Health</a>, the <a href="http://ncbi.nlm.nih.gov">National Center for Biotechnology Information</a>, and the <a href="http://fdic.gov">Federal Deposit Insurance Corporation</a>, as well as <a href="http://lockheedmartin.com">Lockheed Martin</a>. </p>
-
-                                <p>Azat is a frequent attendee at Bay Area tech meet-ups and hackathons (<a href="http://angelhack.com">AngelHack</a> hackathon ’12 finalist with team <a href="http://fashionmetric.com">FashionMetric.com</a>).</p>
-
-                                <p>In addition, Azat teaches technical classes at <a href="http://generalassemb.ly">General Assembly</a>, <a href="http://hackreactor.com">Hack Reactor</a>, <a href="http://parisoma.com">pariSOMA</a> and <a href="http://marakana.com">Marakana</a> (acquired by Twitter) to much acclaim.</p>
-
-                                <p>In his spare time, he writes about technology on his blog: <a href="http://webapplog.com">webAppLog.com</a> which is <a href="http://expressjsguide.com/assets/img/expressjs-tutorial.png">number one</a> in “express.js tutorial” Google search results. Azat is also the author of <a href="http://expressjsguide.com">Express.js Guide</a>, <a href="http://rpjs.co">Rapid Prototyping with JS</a> and <a href="http://leanpub.com/ohmyjs">Oh My JS</a>; and the creator of open-source Node.js projects, including <a href="http://npmjs.org/expressworks">ExpressWorks</a>, <a href="http://npmjs.org/mongoui">mongoui</a> and <a href="http://hackhall.com">HackHall</a>.</p>
-
-
-
-
-                            </div>
-                            <div class="col-lg-5">
-                                <ul class="bioextra">
-                                    <li>
-                                        <strong>Name</strong>
-                                        <i>Azat Mardanov</i>
-                                    </li>
-                                    <li>
-                                        <strong>Address</strong>
-                                        <i>Oakland, CA</i>
-                                    </li>
-                                    <li>
-                                        <strong>Number of Books Published</strong>
-                                        <i>5 and counting</i>
-                                    </li>
-
-                                    <li>
-                                        <strong>Twitter</strong>
-                                        <i><a href="http://twitter.com/azat_co">@azat_co</a></i>
-                                    </li>
-                                    <li>
-                                        <strong>Website</strong>
-                                        <i><a href="http://azat.co">http://azat.co</a></i>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-        <!-- END AUTHOR -->
+          </div>
+        </div>
+      </div>
+   <!-- ==========================
+      MODAL WORK - END
+      =========================== -->
+    </section>
 
-        <!-- FOOTER -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-8">
-                        <span class="copyright">Copyright &copy; 2014
-                            <strong>ProgWriter</strong>&nbsp;Complete Guide to Publishing Programming Books</span>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-4">
-                        <span class="powered">Powered by
-                            <a href="http://webapplog.com">
-                                <strong>webapplog.com</strong>
-                            </a>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- END FOOTER -->
-    </div>
+    <!-- ==========================
+    	MODALS - END
+    =========================== -->
+	<!-- ==========================
+    	CONTENT - START
+    =========================== -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/lib/jquery.fitvid.js"></script>
-    <script src="js/lib/nivo-lightbox.min.js"></script>
-    <script src="js/lib/jquery.simple-text-rotator.min.js"></script>
-    <script src="js/lib/jquery.sudoSlider.min.js"></script>
-    <script src="js/lib/jquery.smooth-scroll.min.js"></script>
-    <script src="js/lib/less-1.5.0.min.js"></script>
-    <script src="js/main.js"></script>
+
+    <!-- ==========================
+    	FOOTER - START
+    =========================== -->
+
+
+    <footer class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs" href="index.html#">Billboard</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           <ul class="brands brands-inline navbar-left">
+                <li><a href="http://facebook.com/azat.mardanov" target="blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://twitter.com/#!/azat_co" target="blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://plus.google.com/116816240985852388027/about" target="blank"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="http://www.linkedin.com/in/azatmardanov" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="http://github.com/azat-co" target="blank"><i class="fa fa-github"></i></a></li>
+           </ul>
+
+
+
+          <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html#" data-toggle="modal" data-target="#subscribe">Subscribe</a></li>
+                <li><a href="index.html#" data-toggle="modal" data-target="#work">Our Work</a></li>
+                <li><a href="index.html#" data-toggle="modal" data-target="#author">About Author</a></li>
+                <li><a href="index.html#" data-toggle="modal" data-target="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </footer>
+
+	 <!-- ==========================
+    	FOOTER - END
+    =========================== -->
+
+   	<!-- ==========================
+    	JS
+    =========================== -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="plugins/vegas/js/jquery.vegas.js"></script>
+    <script src="plugins/creative-brands/creative-brands.js"></script>
+    <script src="plugins/time-circles/TimeCircles.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+
+
 </body>
-
 </html>
